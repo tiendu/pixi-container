@@ -83,7 +83,7 @@ Replace `<command>` with the desired Pixi command.
 
 ## Notes
 
-- This image is based on **Alpine Linux** to keep the size minimal.
+- This image is based on **Debian Slim** (`debian:bookworm-slim`) to provide full glibc compatibility while keeping the image size small.
 - The Pixi binary is downloaded in the builder stage to ensure compatibility with the target platform.
 - Ensure your system architecture matches the one specified during the build process if you're not building for multiple platforms.
 
